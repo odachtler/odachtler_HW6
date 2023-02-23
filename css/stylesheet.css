@@ -1,2 +1,62 @@
-body {background-color: tan;
+body {background-color: #EED3BE;
+
 }
+
+header {background-color: #6B4D36;
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke
+}
+
+nav {background-color: #EED3BE;
+    margin: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;}
+
+
+a:link {
+      color: brown;
+      /* unvisited link */
+    }
+    a:visited {
+      color: brown;
+      /* visited link */
+    }
+    a:hover {
+      color: maroon;
+       /* mouse over link */
+       background-color: darkseagreen;
+    }
+    a:active {
+      color: sienna;
+      /* selected link */
+    }
+
+a { text-decoration: none;
+    font-size: 1.1rem;}
+
+
+main {background-color: #EED3BE}
+
+footer {background-color: #6B4D36;
+    padding: 25px;
+    text-align: center;}
+
+.wrapper{ background-color: #EED3BE;
+    }
+
+
+table {
+        border-collapse: collapse;
+        width: 50%;
+        background-color: whitesmoke;
+        border: 1px solid black;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {background-color: lightslategray;}
