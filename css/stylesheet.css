@@ -8,6 +8,11 @@ header {background-color: #6B4D36;
     color: whitesmoke
 }
 
+h2 {color: black}
+
+h3 {color: black;
+    font-size: 1.0rem;}
+
 nav {background-color: #EED3BE;
     margin: 10px;
     text-align: center;
@@ -26,7 +31,7 @@ a:link {
     a:hover {
       color: maroon;
        /* mouse over link */
-       background-color: darkseagreen;
+       background-color: rosybrown;
     }
     a:active {
       color: sienna;
@@ -50,13 +55,19 @@ footer {background-color: #6B4D36;
 table {
         border-collapse: collapse;
         width: 50%;
-        background-color: whitesmoke;
-        border: 1px solid black;
+        background-color: antiquewhite;
+    
       }
       
       th, td {
-        text-align: left;
+        text-align: center;
         padding: 8px;
       }
       
       tr:nth-child(even) {background-color: lightslategray;}
+
+.right {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
